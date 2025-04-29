@@ -1,2 +1,2 @@
-FROM centos:8-stream
-RUN yum install nginx -y
+FROM centos:stream8
+RUN yum install -y nginx
